@@ -1,0 +1,35 @@
+.chat-form-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chat-container {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.chat-input {
+    height: 50px;
+    width: 90%;
+}
+
+.chat-dialog {
+    width: 40%;
+    height: 80%;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    overflow: auto;
+}
+
+.btn btn-primary {
+    padding: 15px 32px;
+}
